@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5cdd46d5-4081-4c29-920b-d3556fe50eec" name="gs">
+        <fileTransfer accessType="SFTP" host="frp.clouddr.cloud" port="54000" sshConfigId="2e2d4f61-65cf-4765-afb5-3f8aee96dfe1" sshConfig="root@frp.clouddr.cloud:54000 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

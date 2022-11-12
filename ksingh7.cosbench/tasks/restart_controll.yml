@@ -1,0 +1,16 @@
+---
+- name: "stop controll"
+  shell:
+   cmd: >
+    sh stop-controller.sh
+  args:
+    chdir: "{{ansible_user_dir}}/cosbench/{{cosbench_version}}" 
+  ignore_errors: yes
+
+- name: "start control"
+  shell:
+   cmd: >
+    sh start-controller.sh
+  args:
+    chdir: "{{ansible_user_dir}}/cosbench/{{cosbench_version}}"
+

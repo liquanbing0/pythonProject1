@@ -1,0 +1,10 @@
+[cosbench-controller]
+192.168.2.10
+
+[cosbench-driver]
+192.168.2.10
+192.168.2.20
+
+[cosbench:children]
+cosbench-controller
+cosbench-driver
